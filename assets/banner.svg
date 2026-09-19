@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Dynamic animated tech lines in background -->
+    <style>
+      @keyframes pulseGrid {
+        0% { opacity: 0.15; transform: scale(0.98); }
+        50% { opacity: 0.35; transform: scale(1.01); }
+        100% { opacity: 0.15; transform: scale(0.98); }
+      }
+      @keyframes moveFlow {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes floatGear {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .bg-grid {
+        animation: pulseGrid 6s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .flow-line {
+        stroke-dasharray: 20, 10;
+        animation: moveFlow 12s linear infinite;
+      }
+      .spinning-gear {
+        animation: floatGear 25s linear infinite;
+        transform-origin: 1050px 150px;
+      }
+      .text-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 800;
+        fill: url(#textGrad);
+      }
+      .text-subtitle {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        fill: #94a3b8;
+      }
+      .badge-pill {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #38bdf8;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="300" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Background Dynamic Element 1: Grid lines -->
+  <g class="bg-grid" stroke="#334155" stroke-width="1">
+    <path d="M0 50 H1200 M0 100 H1200 M0 150 H1200 M0 200 H1200 M0 250 H1200" />
+    <path d="M100 0 V300 M200 0 V300 M300 0 V300 M400 0 V300 M500 0 V300 M600 0 V300 M700 0 V300 M800 0 V300 M900 0 V300 M1000 0 V300 M1100 0 V300" />
+  </g>
+
+  <!-- Background Dynamic Element 2: Flow lines -->
+  <path class="flow-line" d="M -50 220 Q 300 280 600 210 T 1250 180" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.4" />
+  <path class="flow-line" d="M -50 80 Q 400 20 800 90 T 1250 50" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.3" />
+
+  <!-- Background Dynamic Element 3: Abstract Manufacturing Gear (Positioned right, non-overlapping) -->
+  <g class="spinning-gear" opacity="0.15" fill="none" stroke="#c084fc" stroke-width="4">
+    <circle cx="1050" cy="150" r="90" />
+    <circle cx="1050" cy="150" r="50" />
+    <path d="M1050 40 V60 M1050 240 V260 M940 150 H960 M1140 150 H1160 M972 72 L986 86 M1114 214 L1128 228 M972 228 L986 214 M1114 86 L1128 72" stroke-width="12" stroke-linecap="round" />
+  </g>
+
+  <!-- Foreground Foreground Container: Ensures contrast and readability -->
+  <!-- Decorative Top Tag -->
+  <rect x="80" y="45" width="230" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.9" />
+  <text x="195" y="63" text-anchor="middle" class="badge-pill">⚙️ ISO 9001 &amp; FDA COMPLIANCE</text>
+
+  <!-- Main Title (Guaranteed foreground priority) -->
+  <text x="80" y="130" class="text-title" font-size="44" letter-spacing="-0.5">Awesome Manufacturing QMS</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="175" class="text-subtitle" font-size="20">A Curated Ecosystem of SaaS Platforms &amp; Open-Source Solutions</text>
+
+  <!-- Feature Pills -->
+  <g transform="translate(80, 210)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="160" height="34" rx="8" fill="url(#accentGrad)" stroke="#6366f1" stroke-width="1" />
+    <text x="80" y="22" text-anchor="middle" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="600">📄 Document Control</text>
+
+    <!-- Pill 2 -->
+    <rect x="175" y="0" width="140" height="34" rx="8" fill="url(#accentGrad)" stroke="#6366f1" stroke-width="1" />
+    <text x="245" y="22" text-anchor="middle" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="600">🔍 CAPA &amp; Audits</text>
+
+    <!-- Pill 3 -->
+    <rect x="330" y="0" width="170" height="34" rx="8" fill="url(#accentGrad)" stroke="#6366f1" stroke-width="1" />
+    <text x="415" y="22" text-anchor="middle" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="600">🚀 Open-Source eQMS</text>
+  </g>
+</svg>
