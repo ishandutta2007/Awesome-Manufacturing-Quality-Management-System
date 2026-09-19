@@ -44,30 +44,30 @@ Below is a comparison of top SaaS Quality Management Systems sorted by **Company
 
 ## 💻 Open-Source GitHub Projects
 
-These open-source solutions allow organizations to run self-hosted or version-controlled Quality Management workflows. Listed in order of **GitHub Stars (Descending)**.
+These open-source solutions allow organizations to run self-hosted or version-controlled Quality Management workflows. Listed in order of **GitHub_Stars (Descending)**.
 
-- **[Odoo Quality Module](https://github.com/odoo/odoo)** [![GitHub Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+- **[Odoo Quality Module](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
   Comprehensive open-source ERP quality suite with quality control points, inspection checks, and nonconformance alerts integrated directly into manufacturing operations.
 
-- **[ERPNext Quality Management](https://github.com/frappe/erpnext)** [![GitHub Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+- **[ERPNext Quality Management](https://github.com/frappe/erpnext)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
   Built-in ERPNext quality management module covering Quality Goals, Quality Procedures, Inspection criteria, and Action Items for production lines.
 
-- **[n8n Workflow Automation for Quality Pipelines](https://github.com/n8n-io/n8n)** [![GitHub Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+- **[n8n Workflow Automation for Quality Pipelines](https://github.com/n8n-io/n8n)** [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
   Fair-code workflow engine used to automate document approval notifications, CAPA triggers, and audit compliance logging across web services.
 
-- **[Documenso (Document Signing & Approvals)](https://github.com/documenso/documenso)** [![GitHub Stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers)  
+- **[Documenso (Document Signing & Approvals)](https://github.com/documenso/documenso)** [![GitHub_Stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers)  
   Open-source digital signature alternative for compliant SOP document sign-offs, authorization chains, and audit trails.
 
-- **[FormKiQ Core (Document & Records Management)](https://github.com/FormKiQ/formkiq-core)** [![GitHub Stars](https://img.shields.io/github/stars/FormKiQ/formkiq-core?style=social&color=white)](https://github.com/FormKiQ/formkiq-core/stargazers)  
+- **[FormKiQ Core (Document & Records Management)](https://github.com/FormKiQ/formkiq-core)** [![GitHub_Stars](https://img.shields.io/github/stars/FormKiQ/formkiq-core?style=social&color=white)](https://github.com/FormKiQ/formkiq-core/stargazers)  
   Headless document management system (DMS) tailored for enterprise document control, retention policies, and compliance record storage.
 
-- **[OpenQMS](https://github.com/C-realize/OpenQMS)** [![GitHub Stars](https://img.shields.io/github/stars/C-realize/OpenQMS?style=social&color=white)](https://github.com/C-realize/OpenQMS/stargazers)  
+- **[OpenQMS](https://github.com/C-realize/OpenQMS)** [![GitHub_Stars](https://img.shields.io/github/stars/C-realize/OpenQMS?style=social&color=white)](https://github.com/C-realize/OpenQMS/stargazers)  
   Lightweight open-source eQMS web application providing controlled document approval, training assignments, and change tracking under AGPL license.
 
-- **[QAtrial](https://github.com/MeyerThorsten/QAtrial)** [![GitHub Stars](https://img.shields.io/github/stars/MeyerThorsten/QAtrial?style=social&color=white)](https://github.com/MeyerThorsten/QAtrial/stargazers)  
+- **[QAtrial](https://github.com/MeyerThorsten/QAtrial)** [![GitHub_Stars](https://img.shields.io/github/stars/MeyerThorsten/QAtrial?style=social&color=white)](https://github.com/MeyerThorsten/QAtrial/stargazers)  
   AI-assisted open-source quality management prototype for regulated medical devices and pharmaceutical CAPA tracking.
 
-- **[Open-eQMS](https://github.com/dromation/open-eqms)** [![GitHub Stars](https://img.shields.io/github/stars/dromation/open-eqms?style=social&color=white)](https://github.com/dromation/open-eqms/stargazers)  
+- **[Open-eQMS](https://github.com/dromation/open-eqms)** [![GitHub_Stars](https://img.shields.io/github/stars/dromation/open-eqms?style=social&color=white)](https://github.com/dromation/open-eqms/stargazers)  
   Community project creating an open-source enterprise Quality Management System standard and framework.
 
 ---
