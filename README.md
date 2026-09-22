@@ -39,6 +39,7 @@ Below is a comparison of top SaaS Quality Management Systems sorted by **Company
 | **[Qualio](https://www.qualio.com/)** | ~$22 Million ARR | Base platform starts at ~$12,000 per year | No free tier; No free trial (Guided software demo available) | Modern eQMS designed for life-science and medtech startups to manage documents and CAPA. |
 | **[Qualtrax](https://www.qualtrax.com/)** | Acquired for ~$14.9 Million (Ideagen) | Custom quote (Base enterprise packages starting around $8,000+/year) | No free tier; No free trial (Custom pilot arranged upon contact) | ISO 17025 compliance, document control, audit management, and automated workflows. |
 | **[QT9 QMS](https://qt9software.com/)** | Estimated ~$4.5 Million ARR | Starts at ~$120/user/month or ~$2,200 per concurrent user/year | No free tier; **14-Day Free Trial** available with sample data | All-in-one quality management with 25+ modules including inspection & training. |
+| **[Allowly](https://allowly.ai/use-cases/gxp-ai-agent-controls/)** | Private company; revenue/valuation not public | Free; paid plans from **$9/month** | Free plan: **1 active item and 1,000 lifetime decisions** | Policy checks before consequential AI-agent actions and signed records for submitted decisions; customer systems enforce results and validate intended use. Not a full eQMS. |
 
 ---
 
